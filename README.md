@@ -1,7 +1,7 @@
 # AppSamurai Attribution SDK
 [![alt text](https://appsamurai.com/wp-content/uploads/2018/10/as_dark_logotype-8.png "AppSamurai")](https://www.appsamurai.com)
 ## Getting Started
-AppSamurai Attribution SDK targets iOS 10 or higher.
+AppSamurai Attribution SDK targets iOS 10 or higher. 
 
 ### Using CocoaPods (preferred)
 AppSamurai Attribution SDK is available through [CocoaPods](https://cocoapods.org). To install
@@ -54,6 +54,8 @@ ASAttribution.track("event-name", data: ["string-key": json-serializable-any, ..
 [ASAttribution trackWithEventName:@"event-name"];
 [ASAttribution trackWithEventName:@"event-name" data:@{@"string-key": @json-serializable-any, ...}];
 ```
+## Sample Usages
+Sample usages can be found in the repository for both Swift and Objective C.
 
 ## Author
 App Samurai Mobile Team, mobile@appsamurai.com
